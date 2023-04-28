@@ -9,7 +9,7 @@ pipeline {
                 bat "mvn -D clean test"
             }
  
-            post {
+            /*post {
                  
                 // If Maven was able to run the tests, even if some of the test
                 // failed, record the test results and archive the jar file.
@@ -25,7 +25,7 @@ pipeline {
                         skippedStepsNumber: -1, 
                         sortingMethod: 'ALPHABETICAL', 
                         undefinedStepsNumber: -1
-                }
+                }*/
             }
         }
     }
