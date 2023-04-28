@@ -8,7 +8,7 @@ pipeline {
                 }
                 post {
                     success {
-                        cucumber buildStatus: 'null'
+                        cucumber buildStatus: 'null',
                         customCssFiles: '', 
                         customJsFiles: '', 
                         failedFeaturesNumber: -1, 
